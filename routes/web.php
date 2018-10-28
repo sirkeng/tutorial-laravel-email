@@ -32,7 +32,7 @@ Route::get('/', function () {
 	Mail::send('emails.test', $data, function($message){
 
 
-		$message->to('naykeng1kz1@gmail.com', 'SirKenG')->subject('Hello student how are you?');
+		$message->to('naykeng_1kz1@hotmail.com', 'SirKenG')->subject('Hello student how are you?');
 
 
 	});
